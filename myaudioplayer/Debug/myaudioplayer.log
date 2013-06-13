@@ -1,0 +1,24 @@
+﻿Build started 3/15/2012 2:42:22 PM.
+     1>Project "D:\myaudioplayer\myaudioplayer\myaudioplayer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\myaudioplayer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\WinDDK\7600.16385.1\inc /ZI /nologo /W3 /WX- /Od /Oy- /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt WaveLib.cpp
+         WaveLib.cpp
+     1>d:\myaudioplayer\myaudioplayer\wavelib.cpp(714): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>d:\myaudioplayer\myaudioplayer\wavelib.cpp(645): warning C4101: 'x' : unreferenced local variable
+     1>d:\myaudioplayer\myaudioplayer\wavelib.cpp(795): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\myaudioplayer\Debug\myaudioplayer.exe" /NOLOGO Winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\myaudioplayer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\myaudioplayer\Debug\myaudioplayer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\myaudioplayer\Debug\myaudioplayer.lib" /MACHINE:X86 Debug\WaveLib.obj
+         LINK : D:\myaudioplayer\Debug\myaudioplayer.exe not found or not built by the last incremental link; performing full link
+         myaudioplayer.vcxproj -> D:\myaudioplayer\Debug\myaudioplayer.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\myaudioplayer\Debug\myaudioplayer.exe;#1" /manifest Debug\myaudioplayer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\myaudioplayer.unsuccessfulbuild".
+         Touching "Debug\myaudioplayer.lastbuildstate".
+     1>Done Building Project "D:\myaudioplayer\myaudioplayer\myaudioplayer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.16
